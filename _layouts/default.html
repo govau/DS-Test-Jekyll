@@ -1,0 +1,17 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="text/javascript">
+      var $html = document.documentElement; if ($html.classList) $html.classList.remove("no-js"), $html.classList.add("js"); else { var className = "no-js"; $html.className = $html.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " "), $html.className += " js" }
+    </script>
+  </head>
+  <body class="au-body au-grid">
+    {% include navigation.html %}
+    {{ content }}
+    <!-- Component javscript -->
+    <script src="assets/js/designsystem.min.js"></script>
+  </body>
+</html>

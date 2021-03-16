@@ -1,0 +1,25 @@
+---
+---
+
+// Dark colour theme changes
+// $AU-colordark-foreground-text:   #ffffff;
+// $AU-colordark-foreground-action: #f9f9f9;
+// $AU-colordark-foreground-focus:  #13e241;
+// $AU-colordark-background:        #134169;
+
+@import "main";
+
+// Additional customisation not related to components
+// h1 {
+//   color: grey;
+// }
+.banner {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.banner-alt {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #e0eef2;
+}
